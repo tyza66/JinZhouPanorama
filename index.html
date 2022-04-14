@@ -1,12 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>全景</title>
+    <link rel="stylesheet" href="./css/main.css"/>
+    <link rel="stylesheet" href="./css/pannellum.css"/>
+    <script type="text/javascript" src="./js/pannellum.js"></script>
 </head>
 <body>
-    
+    <div id="panorama"></div>
+    <!-- <canvas id="canvas" style="display:none"></canvas> -->
+    <script>
+    pannellum.viewer('panorama', {
+        "type": "equirectangular",
+        "panorama": "https://raw.githubusercontent.com/tyza66/ImgBed/main/Dispersion/1.jpg",
+        "autoLoad": true,
+    });
+    </script>
 </body>
 </html>
