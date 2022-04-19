@@ -1,31 +1,34 @@
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>全景</title>
-    <link rel="stylesheet" href="../css/main.css"/>
-    <link rel="stylesheet" href="../css/pannellum.css"/>
-    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/pannellum.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
 </head>
+
 <body>
     <div id="panorama"></div>
     <script type="text/javascript" src="../js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../js/pannellum.js"></script>
     <script>
-    pannellum.viewer('panorama', {
-        "type": "equirectangular",
-        "panorama": "https://s2.loli.net/2022/04/19/zS8geLvdqDBQVoj.png",
-        "autoLoad": true,
-        "hotSpots": [
+        pannellum.viewer('panorama', {
+            "type": "equirectangular",
+            "panorama": "https://s2.loli.net/2022/04/19/zS8geLvdqDBQVoj.png",
+            "autoLoad": true,
+            "hotSpots": [
                 {
                     "pitch": 0,
                     "yaw": 8,
                     "type": "info",
-                    "text": "我是一个被插入的文字"
+                    "text": "这里是锦州笔架山风景区海岸"
                 }
             ]
-    });
+        });
     </script>
 </body>
+
 </html>

@@ -18,7 +18,7 @@ init();
 
 //方法绑定
 sj.addEventListener("click", () => {
-    
+    window.location.href = "./html/q"+randomNum(1,15)+".html";
 });
 wy.addEventListener("click", () => {
     t_home.className = "nav-link";
@@ -63,7 +63,20 @@ t_vr.addEventListener("click", () => {
 });
 
 //方法集
-function init(){
+function init() {
     phone.hidden = true;
     glass.hidden = true;
 }
+function randomNum(minNum, maxNum) {
+    switch (arguments.length) {
+        case 1:
+            return parseInt(Math.random() * minNum + 1, 10);
+            break;
+        case 2:
+            return parseInt(Math.random() * (maxNum - minNum + 1) + minNum, 10);
+            break;
+        default:
+            return 0;
+            break;
+    }
+} 
