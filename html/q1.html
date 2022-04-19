@@ -1,23 +1,25 @@
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>全景</title>
-    <link rel="stylesheet" href="../css/main.css"/>
-    <link rel="stylesheet" href="../css/pannellum.css"/>
-    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/pannellum.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
 </head>
+
 <body>
     <div id="panorama"></div>
     <script type="text/javascript" src="../js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../js/pannellum.js"></script>
     <script>
-    pannellum.viewer('panorama', {
-        "type": "equirectangular",
-        "panorama": "https://raw.githubusercontent.com/tyza66/ImgBed/main/Dispersion/9c96a2b5349763599b658905273fce0.jpg",
-        "autoLoad": true,
-        "hotSpots": [
+        pannellum.viewer('panorama', {
+            "type": "equirectangular",
+            "panorama": "https://s2.loli.net/2022/04/19/Q7MEfzBNoVWwdag.png",
+            "autoLoad": true,
+            "hotSpots": [
                 {
                     "pitch": 0,
                     "yaw": 8,
@@ -25,7 +27,8 @@
                     "text": "我是一个被插入的文字"
                 }
             ]
-    });
+        });
     </script>
 </body>
+
 </html>
