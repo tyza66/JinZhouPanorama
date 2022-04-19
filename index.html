@@ -13,24 +13,93 @@
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container">
             <a href="#" class="navbar-brand">全景云游锦州</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span
-                    class="navbar-toggler-icon"></button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></button>
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <div class="nav-link">随机景观</div>
+                        <div class="nav-link" id="sj">随机景观</div>
                     </li>
                     <li class="nav-item">
-                        <div class="nav-link">网页全景</div>
+                        <div class="nav-link" id="wy">网页全景</div>
                     </li>
                     <li class="nav-item">
-                        <div class="nav-link">VR全景</div>
+                        <div class="nav-link" id="vr">VR全景</div>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <section class="container">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" id="t-home">主页</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="t-sj">网页全景</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="t-vr">VR眼镜全景</a>
+            </li>
+        </ul>
+    </section>
+    <section class="container text-center p-3 " id="p1">
+        <div class="alert alert-primary" role="alert">
+            在线全景游览锦州平台上线啦!
+        </div>
+        <div class="card m-auto" style="max-width: 960px;">
+            <img src="https://tc-1308913859.cos.ap-shanghai.myqcloud.com/img/1650365398(1).png" class="card-img-top">
+            <div class="card-body bg-secondary">
+                <p class="card-text">锦州，是辽宁省辖地级市，国务院批复确定的中国辽宁省西部地区的中心城市，辽宁重要的工业、港口城市和东北地区交通枢纽城市 。截至2021年，全市下辖3个区、2个县，代管2个县级市，总面积10301平方千米，常住人口为270.39万人。<br>
+                    锦州地处中国东北地区、辽宁西南部、辽西走廊东部，海岸线124千米，是连接华北和东北两大区域的交通枢纽，是辽宁沿海经济带城市，国家科技成果转化服务（锦州）示范基地、中国投资环境百佳城市、中国最具投资价值新锐金融生态城市、中国人居环境范例奖城市、2013中国锦州世界园艺博览会举办城市。<br> 
+                    锦州有着两千余年的历史，始定名于辽代。1949年，东北解放后成立辽西省，锦州为辽西省省会，成为区域性政治、经济、文化中心。锦州形成空港、海港、铁路、公路、输油气管线齐全的立体交通网络。锦州是辽宁省三大物流中心之一和辽西地区物资集散地及商贸中心。<br>
+                    2020年10月，锦州被评为全国双拥模范城（县）。2021年，锦州实现地区生产总值1148.3亿元。</p>
+            </div>
+        </div>
+        <div class="card m-auto" style="max-width: 960px;">
+            <img src="https://tc-1308913859.cos.ap-shanghai.myqcloud.com/img/20220419193145.png" class="card-img-top">
+            <div class="card-body bg-secondary">
+                <p class="card-text">笔架山是坐落在辽宁省锦州市锦州经济技术开发区笔架山风景区内的山峰，位于我国辽宁省西部，面对渤海，毗邻锦州港，坐落在锦州经济技术开发区内。是道教名山胜地，山有三峰，二低一高，形如笔架。<br>
+                    笔架山风景区近年来加大建设力度，提高了景区的知名度，每年接待游客近百万人，是闻名遐迩的旅游胜地。</p>
+            </div>
+        </div>
+        <div class="card m-auto" style="max-width: 960px;">
+            <img src="https://tc-1308913859.cos.ap-shanghai.myqcloud.com/img/20220419193328.png" class="card-img-top">
+            <div class="card-body bg-secondary">
+                <p class="card-text">辽沈战役纪念馆，位于辽宁省锦州市凌河区北京路5段1号，占地18万平方米，建筑面积14201平方米，其中展馆主体建筑面积8600平方米，附属工程面积3201平方米，游客中心和临时展厅面积2400平方米，陈列面积6843.11平方米，是社会科学类战史专题博物馆。<br> 
+                    1959年1月，辽沈战役纪念馆正式成立，馆内藏品来源主要是社会捐赠，截至2019年末，辽沈战役纪念馆馆内藏品数量达19915件/套，其中珍贵文物达300件/套。 <br>
+                    2005年12月，宣教部被共青团中央授予 “全国青年文明号”称号，同年被中央文明委授予“全国创建文明单位工作先进单位”称号，同年被国家旅游景区质量等级评定委员会评为国家AAAA级旅游景区。</p>
+            </div>
+        </div>
+        <div class="card m-auto" style="max-width: 960px;">
+            <img src="https://tc-1308913859.cos.ap-shanghai.myqcloud.com/img/20220419193855.png" class="card-img-top">
+            <div class="card-body bg-secondary">
+                <p class="card-text">渤海大学（BOHAI University），简称“渤大”，位于渤海之滨的历史文化名城辽宁省锦州市，是辽宁省人民政府举办的综合性大学。学校为具有推荐优秀应届本科毕业生免试攻读硕士研究生资格院校和中国政府奖学金来华留学生培养院校。 <br>
+                    学校有专任教师1300余人，其中教授近200人，博士近500人。专任教师中，有中国工程院院士、 国家优秀青年科学基金获得者、国家百千万人才入选者、全国优秀教师、教育部优秀人才支持计划入选者、辽宁省攀登学者、辽宁省特聘教授、辽宁省优秀专家、辽宁省优秀人才支持计划入选者、辽宁省院士后备人选培养工程人选、辽宁省“百千万人才工程”百人层次入选者、千人层次入选者、省级优秀科技人才、省级教学名师、省级专业带头人、省级优秀教师等近百人。 <br>
+                    据2018年12月学校官网显示，学校占地2250余亩，总建筑面积60万平方米。设有19个二级学院，49个本科招生专业，拥有18个一级学科硕士学位授权点和10个专业硕士学位授权点，涵盖经、法、教、文、史、哲、理、工、农、管、艺等学科门类，现有全日制硕士研究生、本科在校生21000余人。</p>
+            </div>
+        </div>
+        <div class="card m-auto" style="max-width: 960px;">
+            <img src="https://tc-1308913859.cos.ap-shanghai.myqcloud.com/img/20220419194135.png" class="card-img-top">
+            <div class="card-body bg-secondary">
+                <p class="card-text">锦州古塔历史文化公园简称古塔公园，位于锦州市古塔区西南隅，是2000年市委、市政府拟办的与市民生活密切相关的39件实事中的一项重大美化工程。1999年9月19日动工，2000年7月1日告竣，总面积12公顷。<br>
+                    公园以千年巍巍辽塔为中心制高点，以地区的历史、风土人情为主题，以大广济寺古建筑群为借景，采用中国传统与现代园林设计相结合的手法，吸古文化之韵，展现代化风姿，铸天地人和谐之魂，融古今历史文化于一体。建设中坚持体现锦州历史文脉和现代园林风光理念相结合的特点，使之成为富有辽西区域文化和风土人情的休闲娱乐场所。<br>
+                    古塔公园以植物造园为主，建筑造园为辅，地势高低相间，环境曲径通幽，全园共分广济寺浏览区、古塔音乐喷泉广场、老年活动区、植物温室观赏区、安静休闲区、儿童活动区、木化石林区七个主要功能区。</p>
+            </div>
+        </div>
+    </section>
+    <section class="container text-center p-3" id="p2">
+        <div class="alert alert-secondary" role="alert">
+            在这里，你可以使用手机页面观看许多的锦州本地景观!
+        </div>
+    </section>
+    <section class="container text-center p-3" id="p3">
+        <div class="alert alert-success" role="alert">
+            在这里，您可以使用您的手机放入式VR设备进行游览!
+        </div>
+    </section>
     <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
 </body>
 
 </html>
